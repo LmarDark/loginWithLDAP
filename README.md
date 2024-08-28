@@ -2,7 +2,7 @@
 
 ## O que é o loginWithLDAP🤔
 
-#### - Um básico projeto de autenticação por (LDAP)[https://pt.wikipedia.org/wiki/LDAP] feito no Laravel.
+#### - Um básico projeto de autenticação por [LDAP](https://pt.wikipedia.org/wiki/LDAP) feito no Laravel.
 
 ## Como rodar o projetos 👣
 
