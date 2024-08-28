@@ -10,3 +10,5 @@
 **<p>- Depois [instale o Laravel](https://laravel.com/docs/11.x/installation) em sua máquina e substitua os respectivos arquivos</p>**
 
 ---
+
+Feito por: LmarDark
