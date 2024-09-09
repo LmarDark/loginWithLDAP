@@ -76,35 +76,13 @@ class LoginWithLDAP extends Controller
       
         if ($connection->auth()->attempt("{$USER}@BASE_DN", $PASSWD)) {
 
-            return $this->searchGroupAD($USER, $PASSWD, $connection);
+           return redirect()->route('home.get');
 
         } else {
 
             return redirect()->route('login.get');
         
         }
-        
     }
-
-    public function searchGroupAD($USER, $PASSWD, $connection) {
-            
-        /*
-        |--------------------------------------------------------------------------
-        | Procura pelo grupo que o usuário consta no AD.
-        |--------------------------------------------------------------------------
-        */
-
-        $allresult = $connection->query()->where('sAMAccountName', '=', $USER)->get();
-        $result_memberof = $allresult[0]["memberof"];
-
-        foreach ($result_memberof as $memb_of) {
-
-            // Verifica se $memb_of contém o grupo desejado
-            if(str_contains($memb_of, 'CN=O GRUPO DESEJADO AQUI')) {
-                    return redirect()->route('home.get');
-
-            }
-        }
-    }   
 }
     
