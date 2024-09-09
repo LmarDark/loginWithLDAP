@@ -1,15 +1,15 @@
 # loginWithLDAP 📍
 
-## O que é o loginWithLDAP🤔
+## What is loginWithLDAP? 🤔
 
-#### - Um básico projeto de autenticação por [LDAP](https://pt.wikipedia.org/wiki/LDAP) feito no Laravel.
+#### - A basic [LDAP](https://pt.wikipedia.org/wiki/LDAP) authentication project built with  feito no [Laravel](https://laravel.com/).
 
-## Como rodar o projetos 👣
+## How to run the project 👣
 
-**<p>- É mais simples do que parece! Primeiramente baixe os arquivos deste repositório;</p>**
-**<p>- Depois [instale o Laravel](https://laravel.com/docs/11.x/installation) e faça um ```composer require directorytree/ldaprecord``` para instalar a dependência do LDAP;**
-**<p>- E por fim substitua os respectivos arquivos para seu diretório do Laravel, e edite da forma que desejar!</p>**
+**<p>- It's simpler than it seems! First, download the files from this repository;</p>**
+**<p>- - Then install Laravel and run ```composer require directorytree/ldaprecord``` to install the [LDAP dependency](https://ldaprecord.com/);</p> 
+**<p>- Finally, replace the respective files in your Laravel directory and modify them as desired!</p>**
 
 ---
 
-Feito por: LmarDark
+Made by: LmarDark
